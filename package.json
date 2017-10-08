@@ -1,0 +1,23 @@
+{
+  "name": "home-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "huejay": "^1.7.0",
+    "node": "^8.3.0",
+    "node-dash-button": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.33",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  }
+}

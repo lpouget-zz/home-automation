@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "typeRoots": [
+      "./node_modules/@types/"
+    ],
+    "types": [
+      //"huejay.d.ts"
+    ]
+  },
+  "files": [
+    "app.ts"
+  ]
+}
